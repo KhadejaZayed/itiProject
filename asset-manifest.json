@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/itiProject/static/css/main.f884e909.css",
-    "main.js": "/itiProject/static/js/main.d92d6b77.js",
+    "main.js": "/itiProject/static/js/main.0e670d73.js",
     "static/js/453.0297a6b4.chunk.js": "/itiProject/static/js/453.0297a6b4.chunk.js",
     "index.html": "/itiProject/index.html",
     "main.f884e909.css.map": "/itiProject/static/css/main.f884e909.css.map",
-    "main.d92d6b77.js.map": "/itiProject/static/js/main.d92d6b77.js.map",
+    "main.0e670d73.js.map": "/itiProject/static/js/main.0e670d73.js.map",
     "453.0297a6b4.chunk.js.map": "/itiProject/static/js/453.0297a6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f884e909.css",
-    "static/js/main.d92d6b77.js"
+    "static/js/main.0e670d73.js"
   ]
 }
