@@ -13,7 +13,7 @@ function AddProduct() {
     /* fetch all products  */
 
     const fetchproducts = () => {
-        fetch("http://localhost:9000/products")
+        fetch("https://vivacious-gentle-divan.glitch.me/products")
             .then(res => res.json())
             .then(data => {
                 setAllProducts(data);
@@ -24,7 +24,7 @@ function AddProduct() {
     /* fetch categorise  */
 
     const fetchcategory = () => {
-        fetch("http://localhost:9000/catigories")
+        fetch("https://vivacious-gentle-divan.glitch.me/catigories")
             .then(res => res.json())
             .then(data => {
                 setCategories(data);
@@ -57,10 +57,10 @@ function AddProduct() {
             description: product.description,
             category: product.category,
             rating: product.rating,
-            image: product.image ? `http://localhost:3001/uploads/${product.image.name}` : null,
+            image: product.image ? `https://important-tidy-reptile.glitch.me/${product.image.name}` : null,
         }
         formData.append('productData', JSON.stringify(productData));
-        axios.post("http://localhost:3001/products", formData, {
+        axios.post("https://important-tidy-reptile.glitch.me/products", formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             }

@@ -9,7 +9,7 @@ function Catigorize() {
     const [category, setcategory] = useState([])
     const [cat, setcat] = useState("all")
     const getcategory = () => {
-        fetch("http://localhost:9000/catigories")
+        fetch("https://vivacious-gentle-divan.glitch.me/catigories")
             .then(res => res.json())
             .then(data => setcategory(data))
     }
